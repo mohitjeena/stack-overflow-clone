@@ -1,0 +1,32 @@
+.tags-h1{
+    font-weight: 400;
+    margin-top: 50px;
+}
+.tags-p{
+    margin: 0;
+    color: rgba(0, 0, 0, 0.822);
+}
+.tags-list-container{
+       margin-top: 20px;
+      padding: 10px 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+      gap: 10px;
+}
+.tag{
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.432);
+}
+.tag h4{
+    color: rgb(73, 139, 165);
+    background-color: rgb(201, 231, 243);
+    margin: 10px 0;
+    padding: 10px 0;
+    text-align: center;
+}
+.tag p{
+    color: rgba(0, 0, 0, 0.884);
+    line-height: 20px;
+    text-align: center;
+   
+}
